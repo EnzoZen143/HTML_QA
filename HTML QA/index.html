@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <style>
+            * { margin: 0; padding: 0; box-sizing: border-box; }
+            body { font-family: Georgia, serif; background-image: url('FOREST.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+            .container { width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center; }
+            .box { width: 80%; height: 96.4vh; border: 2px solid rgb(81, 112, 89); position: relative; background: rgba(255, 255, 255, 0.5);  }
+            .navbar { display: flex; background: rgb(81, 112, 89); padding: 10px; }
+            .navbar button { margin-right: 10px; padding: 10px; cursor: pointer; border: none; background: rgb(31, 68, 41); color: white; }
+            .navbar button:hover { background: rgb(34, 163, 69); }
+            .new-release { margin-top: 20px; text-align: center; background: rgba(255, 255, 255, 0.8); padding: 20px;  }
+            .new-release h1 { color: rgb(81, 112, 89); }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+                <div class="navbar">
+                    <button onclick="location.href='index.html'">Home Page</button>
+                    <button onclick="location.href='info.html'">Info Page</button>
+                    <button onclick="location.href='products.html'">Products Page</button>
+                    <button onclick="location.href='sign_up.html'">Sign Up Page</button>
+                </div>
+                <h1 style="text-align:center; margin-top: 20px;">Welcome to Botanic Organics</h1>
+                <div class="new-release">
+                    <h1>NEW RELEASE</h1>
+                    <br>
+                    <img src="SOAP.png" alt="New Soap Product" width="900" height="600">
+                    <br><br><br>
+                    <h2>Introducing our latest all-natural botanical soap, infused with organic ingredients for healthy and glowing skin!</h2>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

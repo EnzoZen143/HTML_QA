@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Page</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: Georgia, serif; background-image: url('FOREST.jpg'); background-repeat: no-repeat; background-attachment: fixed; background-size: cover; }
+        .container { width: 100%; height: 100vh; display: flex; align-items: center; justify-content: center; }
+        .box { width: 80%; height: 90vh; border: 2px solid rgb(81, 112, 89); position: relative; background: rgba(255, 255, 255, 0.5); overflow-y: auto; }
+        .navbar { display: flex; background: rgb(81, 112, 89); padding: 10px; }
+        .navbar button { margin-right: 10px; padding: 10px; cursor: pointer; border: none; background: rgb(31, 68, 41); color: white; }
+        .navbar button:hover { background: rgb(34, 163, 69); }
+        .product { display: flex; align-items: center; margin: 20px 0; background: rgba(255, 255, 255, 0.8); padding: 10px; }
+        .product-description { font-size: 16px; color: rgb(31, 68, 41); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="navbar">
+                <button onclick="location.href='index.html'">Back to Home Page</button>
+            </div>
+            <h1 style="text-align:center; margin-top: 30px;">MOST POPULAR SOAP PRODUCTS</h1>
+            
+            <div class="product">
+                <img src="SOAP.png" alt="Soap Product 1" width="700" height="400">
+                <div class="product-description">
+                    <h2>EVERGREEN MOSSENTIAL</h2>
+                    <br>
+                    <p>Immerse yourself in the lush embrace of nature with Evergreen Mossential—a revitalizing soap infused with the essence of evergreen forests and velvety moss. Enriched with botanical extracts and mineral-rich clays, this earthy blend gently purifies and hydrates, leaving your skin feeling fresh, smooth, and deeply nourished. Breathe in the crisp aroma of pine, cedar, and damp moss as you lather up—an invigorating escape to the heart of the wilderness.</p>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="SOAP 2.png" alt="Soap Product 2" width="700" height="400">
+                <div class="product-description">
+                    <h2>RIVERSTONE MOSS</h2>
+                    <br>
+                    <p>Inspired by the serene beauty of moss-covered river stones, Riverstone Moss blends mineral-rich clay, earthy moss extracts, and nourishing plant oils. This grounding soap deeply cleanses while leaving your skin soft, hydrated, and refreshed—like a cool dip in a flowing stream.</p>
+                </div>
+            </div>
+            
+            <div class="product">
+                <img src="SOAP 3.png" alt="Soap Product 3" width="700" height="400">
+                <div class="product-description">
+                    <h2>FOREST DEW</h2>
+                    <br>
+                    <p>Awaken your senses with Forest Dew, a refreshing soap infused with the crisp essence of morning mist, woodland herbs, and gentle botanicals. Let the soothing lather transport you to a tranquil forest glade, where nature’s purity cleanses and revitalizes your skin.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
